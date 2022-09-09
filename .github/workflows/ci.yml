@@ -41,7 +41,7 @@ jobs:
           CF_IMAGE: ${{env.CF_IMAGE}}
 
           # Container registry integration where the image is stored.
-          CF_CONTAINER_REGISTRY_INTEGRATION: 'docker'
+          CF_CONTAINER_REGISTRY_INTEGRATION: 'doc'
 
           # Git branch with the commit  Pull Request data to add to the image. Pass the branch from the event payload used to trigger your action.
           CF_GIT_BRANCH: ${{ github.event.pull_request.head.ref }}
@@ -51,7 +51,7 @@ jobs:
           CF_GITHUB_TOKEN: ${{secrets.PAT}}
 
           # Issue tracking integration to use to enrich the image.
-          CF_JIRA_INTEGRATION: 'jira'
+          CF_JIRA_INTEGRATION: 'jra'
 
           # Jira project prefix  identifying the ticket number to use.
           CF_JIRA_PROJECT_PREFIX: 'CR'
