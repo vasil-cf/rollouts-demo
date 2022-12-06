@@ -61,7 +61,7 @@ jobs:
           CF_JIRA_PROJECT_PREFIX: 'CR'
 
           # Search for issue IDs matching this string to associate with your image.
-          CF_JIRA_MESSAGE: ${{ github.event.pull_request.head.ref }}
+          CF_JIRA_MESSAGE: github.event.pull_request.head.ref
         uses: codefresh-io/codefresh-report-image@latest
      # - name: report image
       #  with:
