@@ -3,12 +3,12 @@ name: Github-action-demo
 on:
   pull_request:
     branches:
-      - master
+      - 1.23k8s
     types:
       - closed
   push:
     branches:
-      - master
+      - 1.23k8s
       
 jobs:
   build:
