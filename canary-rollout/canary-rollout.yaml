@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: canary-demo
-          image: alina1test/rollouts-demo:green
+          image: alina1test/rollouts-demo:blue
           imagePullPolicy: Always
           ports:
             - name: http
