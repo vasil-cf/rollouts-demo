@@ -41,7 +41,8 @@ jobs:
           # CF_API_KEY: ${{secrets.CF_API_KEY_STAGING}}
           
           CF_PLATFORM_URL: https://g.codefresh.io
-          CF_API_KEY: ${{secrets.CF_API_KEY}}
+          # CF_API_KEY: ${{secrets.CF_API_KEY}}
+          CF_API_KEY: ${{secrets.CF_API_KEY_TEST}}
           
 #           CF_RUNTIME_NAME: 'onprem-runtime'
 #           CF_PLATFORM_URL: 'https://hermes-onprem-test.cf-op.com'
