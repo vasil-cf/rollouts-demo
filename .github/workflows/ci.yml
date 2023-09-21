@@ -40,7 +40,7 @@ jobs:
           # CF_PLATFORM_URL: https://app-staging.codefresh.io
           # CF_API_KEY: ${{secrets.CF_API_KEY_STAGING}}
           
-          CF_PLATFORM_URL: https://g.codefresh.io
+          CF_PLATFORM_URL: 'https://g.codefresh.io'
           # CF_API_KEY: ${{secrets.CF_API_KEY}}
           CF_API_KEY: ${{secrets.CF_API_KEY_TEST}}
           
